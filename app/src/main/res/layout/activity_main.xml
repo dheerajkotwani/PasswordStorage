@@ -17,6 +17,7 @@
         android:textStyle="bold"
         android:layout_centerInParent="true"
         android:layout_margin="20dp"/>
+
     <EditText
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
@@ -24,7 +25,8 @@
         android:layout_below="@id/text_view"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
-        />
+        android:singleLine="true"/>
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -33,7 +35,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="40dp"
         android:text="Submit"
-        android:background="#afb"
-        />
+        android:background="#afb" />
+
 
 </RelativeLayout>
